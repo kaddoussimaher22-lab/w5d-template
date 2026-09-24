@@ -1,0 +1,39 @@
+{
+  "brand": {
+    "name": "Immobilière Gloulou",
+    "short": "Gloulou",
+    "founded": 1986,
+    "founder": "Mohamed Gloulou",
+    "tagline_key": "brand.tagline"
+  },
+  "defaultLang": "fr",
+  "languages": [
+    { "code": "fr", "label": "Français", "dir": "ltr", "enabled": true },
+    { "code": "ar", "label": "العربية", "dir": "rtl", "enabled": false },
+    { "code": "en", "label": "English", "dir": "ltr", "enabled": false }
+  ],
+  "nav": [
+    { "key": "nav.home",     "href": "index.html" },
+    { "key": "nav.review",   "href": "review.html" }
+  ],
+  "footer": {
+    "columns": [
+      { "titleKey": "footer.site", "links": [
+        { "key": "nav.home",   "href": "index.html" },
+        { "key": "nav.review", "href": "review.html" }
+      ]},
+      { "titleKey": "footer.legal", "links": [
+        { "key": "footer.legalNotice", "href": "#" },
+        { "key": "footer.privacy",     "href": "#" },
+        { "key": "footer.cookies",     "href": "#" }
+      ]}
+    ]
+  },
+  "contact": {
+    "address": "Sousse, Tunisie",
+    "phone": "",
+    "email": "",
+    "whatsapp": ""
+  },
+  "credits": { "agency": "World 5 Dimensions (W5D)", "url": "#" }
+}

@@ -71,6 +71,17 @@ The hidden desktop fragment of every mega-menu now uses `left-1/2 -translate-x-1
 
 ---
 
+## 🆕 Immobilière Gloulou site (`/gloulou/`)
+
+Static, Markdown-driven premium site for **Immobilière Gloulou**, developed by **W5D**. Details are in [`gloulou/README.md`](gloulou/README.md).
+
+- `/gloulou/review.html`: animated audit of the current immobilieregloulou.com site (counters, gauges, Chart.js radar/doughnut/stacked bars, filterable 46-item issues register, roadmap), written for Gloulou's SEO team
+- `/gloulou/index.html`: preview of the new homepage
+- Content lives in `gloulou/content/{lang}/*.md` and UI strings in `gloulou/config/i18n/{lang}.json`. Languages are enabled in `gloulou/config/site.json`
+- Reusable Web Components: `<g-header> <g-footer> <g-page> <g-cookie> <g-progress>`, plus 15 `:::` Markdown directives
+
+---
+
 ## 🔗 Functional entry URIs
 
 ### Public pages
