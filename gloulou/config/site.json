@@ -1,0 +1,103 @@
+{
+  "brand": { "name": "Immobilière Gloulou", "legalName": "Société de Promotion Immobilière Gloulou", "founded": 1986, "founder": "Mohamed Gloulou" },
+  "defaultLang": "fr",
+  "languages": [
+    { "code": "fr", "label": "Français", "dir": "ltr", "enabled": true },
+    { "code": "ar", "label": "العربية", "dir": "rtl", "enabled": false },
+    { "code": "en", "label": "English", "dir": "ltr", "enabled": false }
+  ],
+  "contact": {
+    "address": "Résidence K2, El Menzah 9C, 1013 Tunis",
+    "addressSousse": "Immeuble Les Arcades, avenue Ibn El Jazzar, 4000 Sousse",
+    "phone": "+216 98 120 201",
+    "phone2": "+216 70 246 955",
+    "phoneSousse": "+216 70 246 946",
+    "email": "contact@immobilieregloulou.com",
+    "whatsapp": "21698120201",
+    "hours": "Lun – Ven : 8h30 – 17h30 · Sam : 9h – 13h"
+  },
+  "cta": { "label": "Être rappelé", "href": "contact.html#rappel", "phoneHref": "tel:+21698120201" },
+  "social": [
+    { "label": "Facebook", "icon": "facebook", "href": "https://www.facebook.com/gloulou.immobiliere" },
+    { "label": "Instagram", "icon": "instagram", "href": "https://www.instagram.com/immobilieregloulou/" },
+    { "label": "YouTube", "icon": "youtube", "href": "https://www.youtube.com/@immobilieregloulou5342" }
+  ],
+  "nav": [
+    { "label": "Accueil", "href": "index.html" },
+    { "label": "Projets", "href": "projets.html", "match": "projet",
+      "groups": [
+        { "heading": "Nouveaux projets", "items": [
+          { "icon": "sun", "label": "Saint-Tropez", "desc": "M'Saken · lancement 2026", "href": "projet.html?slug=saint-tropez" },
+          { "icon": "building-2", "label": "KOYA", "desc": "El Menzah 9C · 135 appartements", "href": "projet.html?slug=koya" },
+          { "icon": "gem", "label": "Silvana", "desc": "Lac 0 · 35 appartements", "href": "projet.html?slug=silvana" }
+        ]},
+        { "heading": "En construction", "items": [
+          { "icon": "hard-hat", "label": "Nablus", "desc": "Manouba · 5 blocs", "href": "projet.html?slug=nablus" },
+          { "icon": "waves", "label": "Bel Azur", "desc": "M'Saken, Sousse", "href": "projet.html?slug=bel-azur" },
+          { "icon": "leaf", "label": "FUJI", "desc": "El Menzah 9C · bas carbone", "href": "projet.html?slug=fuji" },
+          { "icon": "layout-grid", "label": "Tous nos projets", "desc": "22 réalisations depuis 1986", "href": "projets.html" }
+        ]}
+      ],
+      "promo": { "tag": "Lancement", "title": "Résidence Saint-Tropez", "body": "Une architecture inspirée du style niçois, au cœur de M'Saken.", "href": "projet.html?slug=saint-tropez", "image": "2026-09-05.webp", "cta": "Découvrir" }
+    },
+    { "label": "Services", "href": "services.html",
+      "groups": [
+        { "heading": "Nos métiers", "items": [
+          { "icon": "home", "label": "Immobilier neuf", "desc": "Acheter pour habiter", "href": "services.html#neuf" },
+          { "icon": "trending-up", "label": "Investir", "desc": "Rentabilité et accompagnement", "href": "investir.html" },
+          { "icon": "store", "label": "Immobilier commercial", "desc": "Bureaux, commerces, cabinets", "href": "services.html#commercial" },
+          { "icon": "key-round", "label": "Syndic de copropriété", "desc": "Gestion après livraison", "href": "services.html#syndic" }
+        ]},
+        { "heading": "Avantages", "items": [
+          { "icon": "gift", "label": "Parrainage", "desc": "Recommandez un proche", "href": "parrainage.html" },
+          { "icon": "badge-check", "label": "Pourquoi Gloulou ?", "desc": "Nos engagements", "href": "investir.html#engagements" },
+          { "icon": "leaf", "label": "Construction bas carbone", "desc": "Notre démarche", "href": "engagement.html" }
+        ]}
+      ],
+      "promo": { "tag": "Conseil", "title": "Acheter sur plan", "body": "Prix de lancement, choix du lot et paiement échelonné.", "href": "investir.html", "image": "2025-06-koya.webp", "cta": "En savoir plus" }
+    },
+    { "label": "Actualités", "href": "blog.html", "match": "article|blog|actualites|avancements|videos",
+      "groups": [
+        { "heading": "Suivre", "items": [
+          { "icon": "hard-hat", "label": "Avancements de chantier", "desc": "Photos mois par mois", "href": "avancements.html" },
+          { "icon": "newspaper", "label": "Vie de l'entreprise", "desc": "Événements et partenariats", "href": "actualites.html" },
+          { "icon": "book-open", "label": "Conseils & guides", "desc": "Acheter, investir, entretenir", "href": "blog.html" },
+          { "icon": "play-circle", "label": "Vidéos", "desc": "Visites, chantiers, événements", "href": "videos.html" }
+        ]}
+      ],
+      "promo": { "tag": "Chantier", "title": "Nablus : l'appartement témoin", "body": "Visitez les premiers appartements finis à Manouba.", "href": "article.html?slug=nablus-l-appartement-temoin-ouvre-ses-portes-a-manouba", "image": "2026-08-dsc03495.webp", "cta": "Voir" }
+    },
+    { "label": "À propos", "href": "a-propos.html" },
+    { "label": "Contact", "href": "contact.html" }
+  ],
+  "footer": {
+    "about": "Promoteur immobilier depuis 1986, fondé par Mohamed Gloulou. Des résidences, bureaux et commerces conçus pour durer, à Tunis et dans le Sahel.",
+    "columns": [
+      { "title": "Projets", "links": [
+        { "label": "Tous les projets", "href": "projets.html" },
+        { "label": "Saint-Tropez", "href": "projet.html?slug=saint-tropez" },
+        { "label": "KOYA", "href": "projet.html?slug=koya" },
+        { "label": "Silvana", "href": "projet.html?slug=silvana" },
+        { "label": "Nablus", "href": "projet.html?slug=nablus" },
+        { "label": "Bel Azur", "href": "projet.html?slug=bel-azur" }
+      ]},
+      { "title": "L'entreprise", "links": [
+        { "label": "À propos", "href": "a-propos.html" },
+        { "label": "Services", "href": "services.html" },
+        { "label": "Investir", "href": "investir.html" },
+        { "label": "Parrainage", "href": "parrainage.html" },
+        { "label": "Engagement bas carbone", "href": "engagement.html" },
+        { "label": "Audit du site (W5D)", "href": "audit.html" }
+      ]},
+      { "title": "Informations", "links": [
+        { "label": "Actualités", "href": "blog.html" },
+        { "label": "Vidéos", "href": "videos.html" },
+        { "label": "Newsletter", "href": "newsletter.html" },
+        { "label": "Mentions légales", "href": "mentions-legales.html" },
+        { "label": "Confidentialité", "href": "politique-de-confidentialite.html" },
+        { "label": "Cookies", "href": "cookies.html" }
+      ]}
+    ]
+  },
+  "credits": { "agency": "World 5 Dimensions (W5D)", "url": "#" }
+}

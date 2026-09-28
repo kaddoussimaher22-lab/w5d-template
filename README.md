@@ -71,6 +71,18 @@ The hidden desktop fragment of every mega-menu now uses `left-1/2 -translate-x-1
 
 ---
 
+## 🆕 Immobilière Gloulou site (`/gloulou/`)
+
+Static, Markdown-driven premium site for **Immobilière Gloulou**, developed by **W5D**. It keeps the W5D template DNA (glass, aurora, orbs, reveal animations, mega-menu) with the palette changed from blue to red. Details are in [`gloulou/README.md`](gloulou/README.md).
+
+- 21 HTML shells: `index`, `projets`, `projet?slug=`, `a-propos`, `services`, `investir`, `engagement`, `parrainage`, `contact`, `blog`, `actualites`, `avancements`, `article?slug=`, `videos`, `newsletter`, 3 legal pages, `plan-du-site`, `audit`, `404`
+- All copy is in `gloulou/content/fr/**/*.md`: 21 project pages and 86 articles migrated from immobilieregloulou.com
+- `/gloulou/audit.html`: animated audit of the current site for Gloulou's SEO team (counters, gauges, Chart.js, a filterable register of 46 issues, a roadmap)
+- Videos never autoplay. The YouTube player (nocookie) is only inserted into a popup when a visitor clicks
+- Languages: `config/site.json` plus `config/i18n/{lang}.json`, `content/{lang}/`, `data/{lang}/` (falls back to `fr`)
+
+---
+
 ## 🔗 Functional entry URIs
 
 ### Public pages
