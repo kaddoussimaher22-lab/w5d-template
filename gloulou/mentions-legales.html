@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr" class="dark scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Mentions légales — Immobilière Gloulou</title>
+<meta name="description" content="Immobilière Gloulou, promoteur immobilier en Tunisie depuis 1986 : résidences, bureaux et commerces à Tunis et dans le Sahel." />
+<meta property="og:type" content="website" /><meta property="og:site_name" content="Immobilière Gloulou" />
+<meta name="theme-color" content="#c21128" />
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+<!-- 1. Boot: theme before paint + animated loader -->
+<script src="js/core/boot.js"></script>
+<!-- 2. Tailwind CDN + W5D config recoloured red -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="js/core/tw.js"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com" /><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/gloulou.css" />
+<!-- 3. Libraries -->
+<script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js" defer></script>
+<script src="https://unpkg.com/lucide@0.460.0/dist/umd/lucide.min.js" defer></script>
+<!-- 4. Engine + reusable components -->
+<script src="js/core/app.js" defer></script>
+<script src="js/components/layout.js" defer></script>
+<script src="js/components/blocks.js" defer></script>
+<script src="js/components/realestate.js" defer></script>
+<script src="js/components/report.js" defer></script>
+</head>
+<body>
+<a href="#main" class="sr-only focus:not-sr-only focus:fixed focus:top-3 focus:left-3 focus:z-[100] btn btn-primary">Aller au contenu</a>
+<g-progress></g-progress>
+<g-header></g-header>
+<main id="main"><g-page src="mentions-legales"></g-page></main>
+<g-footer></g-footer>
+<g-cookie></g-cookie>
+<noscript><p style="padding:2rem;text-align:center">Ce site nécessite JavaScript pour afficher son contenu.</p></noscript>
+</body>
+</html>
